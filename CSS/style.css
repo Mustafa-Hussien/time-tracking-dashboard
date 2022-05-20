@@ -1,3 +1,14 @@
+/* Reset some styles */
+h1,h2,h3,h4,h5,h6, p {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: hsl(226, 43%, 10%);
@@ -5,14 +16,22 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-h2 {
-    font-size: 18px;
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
 }
 
-/* Reset some styles */
-h1,h2,h3,h4,h5,h6, p {
-    padding: 0;
-    margin: 0;
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 14px;
+    color: hsl(236, 100%, 87%);
 }
 /* Grid style */
 .container {
@@ -30,17 +49,96 @@ h1,h2,h3,h4,h5,h6, p {
     width: 100px;
     border: 3px solid #fff;
     border-radius: 50%;
+    margin-bottom: 30px;
+}
+.main .bottom {
+}
+.main .bottom li {
+    margin: 15px 0;
 }
 
+.main .bottom a {
+    color: hsl(236, 100%, 87%);
+    text-decoration: none;
+}
+
+.main .bottom a:hover,
+.main .bottom a.active {
+    color:#fff;
+}
 .card {
     margin: 10px 10px;
 }
 
-.top{
-    background-color: yellow;
-    min-height: 30px;
+/* Cards colors */
+
+.main .top {
+    background-color: hsl(246, 80%, 60%);
+    padding: 20px;
+}
+
+.work .top {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url(/images/icon-work.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 90% 25%;
+    min-height: 50px;
+}
+
+.play .top {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url(/images/icon-play.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 90% 25%;
+    min-height: 50px;
+}
+
+.study .top {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url(/images/icon-study.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 90% 25%;
+    min-height: 50px;
+}
+
+.exercise .top {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url(/images/icon-exercise.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 90% 25%;
+    min-height: 50px;
+}
+
+.social .top {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url(/images/icon-social.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 90% 25%;
+    min-height: 50px;
+}
+
+.self-care .top{
+    background-color: hsl(43, 84%, 65%);
+    background-image: url(/images/icon-self-care.svg);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-position: 90% 25%;
+    min-height: 50px;
+}
+
+.top {
+    border-radius: 10px 10px 0 0;
 }
 
 .bottom {
-    background-color: red;
+    position: relative;
+    top: -10px;
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 10px;
+    padding: 20px;
 }
