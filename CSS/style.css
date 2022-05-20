@@ -1,2 +1,41 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    color: #fff;
+}
+
+/* Reset some styles */
+h1,h2,h3,h4,h5,h6, p {
+    padding: 0;
+    margin: 0;
+}
+/* Grid style */
+.container {
+    width: 70%;
+    margin: 300px auto 0 auto;
+    display: grid;
+    grid-template: 1fr 1fr / repeat(4, 1fr);
+}
+
+.main {
+    grid-row: 1 / span 2;
+}
+
+.main img {
+    width: 100px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.card {
+    margin: 10px 10px;
+}
+
+.top{
+background-color: yellow;
+min-height: 30px;
+}
+
+.bottom {
+    background-color: red;
+}
