@@ -139,21 +139,35 @@ p {
 }
 
 .bottom,
-.bottom-main {
+.bottom-main{ 
     position: relative;
     top: -10px;
     background-color: hsl(235, 46%, 20%);
-    border-radius: 10px;
     padding: 20px;
     flex: 1;
-    transition: 0.3s ease-in-out;
 }
 
 .bottom-main {
     border-radius: 0 0 10px 10px;
 }
 
+.bottom {
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
 .bottom:hover {
-cursor: pointer;
-background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    background-color: hsl(235, 45%, 41%);
+}
+
+.dots {
+    position: relative;
+    top: -32%;
+    left: 85%;
+    transition: 0.3s ease-in-out;
+}
+
+.dots:hover img {
+    fill: #fff;
 }
