@@ -36,7 +36,7 @@ p {
 /* Grid style */
 .container {
     width: 70%;
-    margin: 300px auto 0 auto;
+    margin: 200px auto 0 auto;
     display: grid;
     grid-template: 1fr 1fr / repeat(4, 1fr);
 }
@@ -51,8 +51,7 @@ p {
     border-radius: 50%;
     margin-bottom: 30px;
 }
-.main .bottom {
-}
+
 .main .bottom li {
     margin: 15px 0;
 }
@@ -68,6 +67,8 @@ p {
 }
 .card {
     margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Cards colors */
@@ -75,6 +76,8 @@ p {
 .main .top {
     background-color: hsl(246, 80%, 60%);
     padding: 20px;
+    z-index: 1;
+    border-radius: 10px;
 }
 
 .work .top {
@@ -141,4 +144,5 @@ p {
     background-color: hsl(235, 46%, 20%);
     border-radius: 10px;
     padding: 20px;
+    flex: 1;
 }
