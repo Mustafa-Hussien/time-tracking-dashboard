@@ -52,17 +52,17 @@ p {
     margin-bottom: 30px;
 }
 
-.main .bottom li {
+.main li {
     margin: 15px 0;
 }
 
-.main .bottom a {
+.main a {
     color: hsl(236, 100%, 87%);
     text-decoration: none;
 }
 
-.main .bottom a:hover,
-.main .bottom a.active {
+.main a:hover,
+.main a.active {
     color:#fff;
 }
 .card {
@@ -73,7 +73,7 @@ p {
 
 /* Cards colors */
 
-.main .top {
+.main .top-main {
     background-color: hsl(246, 80%, 60%);
     padding: 20px;
     z-index: 1;
@@ -138,11 +138,18 @@ p {
     border-radius: 10px 10px 0 0;
 }
 
-.bottom {
+.bottom,
+.bottom-main {
     position: relative;
     top: -10px;
     background-color: hsl(235, 46%, 20%);
     border-radius: 10px;
     padding: 20px;
     flex: 1;
+    transition: 0.3s ease-in-out;
+}
+
+.bottom:hover {
+cursor: pointer;
+background-color: hsl(235, 45%, 61%);
 }
