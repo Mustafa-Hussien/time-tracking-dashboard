@@ -1,173 +1,225 @@
 /* Reset some styles */
-h1,h2,h3,h4,h5,h6, p {
-    padding: 0;
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: hsl(226, 43%, 10%);
-    color: #fff;
-    font-family: 'Rubik', sans-serif;
+  background-color: hsl(226, 43%, 10%);
+  color: #fff;
+  font-family: "Rubik", sans-serif;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 300;
-    margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 p {
-    font-weight: 300;
-    font-size: 14px;
-    color: hsl(236, 100%, 87%);
+  font-weight: 300;
+  font-size: 14px;
+  color: hsl(236, 100%, 87%);
 }
 /* Grid style */
 .container {
-    width: 70%;
-    margin: 200px auto 0 auto;
-    display: grid;
-    grid-template: 1fr 1fr / repeat(4, 1fr);
+  width: 70%;
+  margin: 200px auto 0 auto;
+  display: grid;
+  grid-template: 1fr 1fr / repeat(4, 1fr);
 }
 
 .main {
-    grid-row: 1 / span 2;
+  grid-row: 1 / span 2;
 }
 
 .main img {
-    width: 100px;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    margin-bottom: 30px;
+  width: 100px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
 
 .main li {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .main a {
-    color: hsl(236, 100%, 87%);
-    text-decoration: none;
+  color: hsl(236, 100%, 87%);
+  text-decoration: none;
 }
 
 .main a:hover,
 .main a.active {
-    color:#fff;
+  color: #fff;
 }
 .card {
-    margin: 10px 10px;
-    display: flex;
-    flex-direction: column;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Cards colors */
 
 .main .top-main {
-    background-color: hsl(246, 80%, 60%);
-    padding: 20px;
-    z-index: 1;
-    border-radius: 10px;
+  background-color: hsl(246, 80%, 60%);
+  padding: 20px;
+  z-index: 1;
+  border-radius: 10px;
 }
 
 .work .top {
-    background-color: hsl(15, 100%, 70%);
-    background-image: url(/images/icon-work.svg);
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position: 90% 25%;
-    min-height: 50px;
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(/images/icon-work.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  min-height: 50px;
 }
 
 .play .top {
-    background-color: hsl(195, 74%, 62%);
-    background-image: url(/images/icon-play.svg);
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position: 90% 25%;
-    min-height: 50px;
+  background-color: hsl(195, 74%, 62%);
+  background-image: url(/images/icon-play.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  min-height: 50px;
 }
 
 .study .top {
-    background-color: hsl(348, 100%, 68%);
-    background-image: url(/images/icon-study.svg);
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position: 90% 25%;
-    min-height: 50px;
+  background-color: hsl(348, 100%, 68%);
+  background-image: url(/images/icon-study.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  min-height: 50px;
 }
 
 .exercise .top {
-    background-color: hsl(145, 58%, 55%);
-    background-image: url(/images/icon-exercise.svg);
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position: 90% 25%;
-    min-height: 50px;
+  background-color: hsl(145, 58%, 55%);
+  background-image: url(/images/icon-exercise.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  min-height: 50px;
 }
 
 .social .top {
-    background-color: hsl(264, 64%, 52%);
-    background-image: url(/images/icon-social.svg);
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position: 90% 25%;
-    min-height: 50px;
+  background-color: hsl(264, 64%, 52%);
+  background-image: url(/images/icon-social.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  min-height: 50px;
 }
 
-.self-care .top{
-    background-color: hsl(43, 84%, 65%);
-    background-image: url(/images/icon-self-care.svg);
-    background-size: 60px;
-    background-repeat: no-repeat;
-    background-position: 90% 25%;
-    min-height: 50px;
+.self-care .top {
+  background-color: hsl(43, 84%, 65%);
+  background-image: url(/images/icon-self-care.svg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: 90% 25%;
+  min-height: 50px;
 }
 
 .top {
-    border-radius: 10px 10px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .bottom,
-.bottom-main{ 
-    position: relative;
-    top: -10px;
-    background-color: hsl(235, 46%, 20%);
-    padding: 20px;
-    flex: 1;
+.bottom-main {
+  position: relative;
+  top: -10px;
+  background-color: hsl(235, 46%, 20%);
+  padding: 20px;
+  flex: 1;
 }
 
 .bottom-main {
-    border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
 }
 
 .bottom {
-    border-radius: 10px;
-    transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
 }
 
 .bottom:hover {
-    cursor: pointer;
-    background-color: hsl(235, 45%, 41%);
+  cursor: pointer;
+  background-color: hsl(235, 45%, 41%);
 }
 
 .dots {
-    position: relative;
-    top: -32%;
-    left: 85%;
-    transition: 0.3s ease-in-out;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transition: 0.3s ease-in-out;
 }
 
-.dots:hover img {
-    fill: #fff;
+.dots:hover .card {
+  background-color: #fff;
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    width: 100%;
+    margin: 50px auto 0 auto;
+    display: grid;
+    grid-template: repeat(7, 1fr) / 1fr;
+    row-gap: 0;
+  }
+
+  .main {
+    grid-row: 1 / span 1;
+  }
+
+  .bottom,
+  .bottom-main {
+    flex: 0;
+  }
+
+  .bottom div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /* padding: 0 10px; */
+  }
+  .main .top-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+  }
+
+  .main img {
+    width: 80px;
+    margin-bottom: 0;
+  }
+
+  .main ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
 }
