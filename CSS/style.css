@@ -181,9 +181,7 @@ p {
   .container {
     width: 100%;
     margin: 50px auto 0 auto;
-    display: grid;
-    grid-template: repeat(7, 1fr) / 1fr;
-    row-gap: 0;
+    display: block;
   }
 
   .main {
@@ -221,5 +219,9 @@ p {
 
   h1 {
     font-size: 25px;
+  }
+
+  .dots {
+    top: 15%;
   }
 }
