@@ -41,7 +41,7 @@ p {
 }
 /* Grid style */
 .container {
-  width: 50%;
+  width: 70%;
   margin: 200px auto 0 auto;
   display: grid;
   grid-template: 1fr 1fr / repeat(4, 1fr);
