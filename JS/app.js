@@ -1,5 +1,5 @@
 // Replace ./data.json with your JSON feed
-fetch('http://mustafa-hussien.github.io/time-tracking-dashboard/data.json').then(response => response.json()).then(data => {
+fetch('https://mustafa-hussien.github.io/time-tracking-dashboard/data.json').then(response => response.json()).then(data => {
   // Work with JSON data here
   // Get the list.
   const mainCardBottom = document.querySelector(".bottom-main");
