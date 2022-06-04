@@ -1,5 +1,5 @@
 // Replace ./data.json with your JSON feed
-fetch('../data.json').then(response => response.json()).then(data => {
+fetch('./data.json').then(response => response.json()).then(data => {
   // Work with JSON data here
   // Get the list.
   const mainCardBottom = document.querySelector(".bottom-main");
