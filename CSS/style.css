@@ -185,7 +185,7 @@ p {
 .dots:hover .card {
   background-color: #fff;
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 991px) {
   .container {
     width: 100%;
     margin: 50px auto 0 auto;
